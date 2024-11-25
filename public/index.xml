@@ -6,8 +6,15 @@
     <description>Recent content in Doğukan Meral on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>simply lovely todo.txt</title>
+      <link>http://localhost:1313/post/2024/11/25/simply-lovely-todo.txt/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/11/25/simply-lovely-todo.txt/</guid>
+      <description>todo.txt is a super-simple way for personal todos. Does only one job and does it well. It being only a bash(.sh) file makes installing it easy and hackable (not in a malicious way).&#xA;There are lots of &amp;ldquo;community apps&amp;rdquo; based on todo.txt both graphical and terminal-based. And there is also an Android app. But in this post I&amp;rsquo;m going to explore raw-dog todo.txt CLI.&#xA;let&amp;rsquo;s install Download latest package(.zip or .</description>
+    </item>
     <item>
       <title>THKÜ RSS</title>
       <link>http://localhost:1313/post/2024/11/24/thk%C3%BC-rss/</link>
