@@ -1,6 +1,5 @@
 ---
 title: THKÜ RSS
-author: Doğukan Meral
 date: '2024-11-24'
 ---
 

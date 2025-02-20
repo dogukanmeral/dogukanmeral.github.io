@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A simple, minimal blog for those who love text.">
-    <title>scregcp</title>
+    <title>oop reminder</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="stylesheet" href="http://localhost:1313/css/theme-override.css">
@@ -19,9 +19,9 @@
 </html>
 
 <div class="article-meta">
-<h1><span class="title">scregcp</span></h1>
+<h1><span class="title">oop reminder</span></h1>
 
-<h2 class="date">2025/02/15</h2>
+<h2 class="date">2025/02/20</h2>
 <p class="terms">
   
   
@@ -35,48 +35,30 @@
 
 <div class="content-wrapper">
   <main>
-    <pre tabindex="0"><code>#!/usr/bin/env bash
+    <pre tabindex="0"><code>data before action
+in OOP decompose to data types (in procedural decompose to functions)
 
+class(data type definition)
+field(data member)
+method(function member)
 
-# screenshots stuff
-# TODO: docs
+object/instance: piece of data
+encapsulation: methods act as &#34;interface&#34; to object fields
+public(visible anywhere) VS private(visible only to methods of own type)
 
-function help_and_exit {
-    if [ -n &#34;${1}&#34; ]; then
-        echo &#34;${1}&#34;
-    fi
-    cat &lt;&lt;-EOF
-    Usage: scregcp [-h|-s] [&lt;screenshots_base_folder&gt;]
+inheritance(a type including all members from another type)
+! circular inheritance is illegal(doesn&#39;t make any sense)
+is-a VS has-a relationship (think before using inheritance)
+multiple inheritance (java and c# allow ONLY single inheritance)
 
-    Take screenshot of a whole screen or a specified region,
-    save it to a specified folder (current folder is default)
-    and copy it to a clipboard. 
-
-
-       -h   - print help and exit
-       -s   - take a screenshot of a screen region
-EOF
-    if [ -n &#34;${1}&#34; ]; then
-        exit 1
-    fi
-    exit 0
-}
-
-if [ &#34;${1}&#34; == &#39;-h&#39;  ]; then
-    help_and_exit
-elif [ &#34;${1:0:1}&#34; == &#39;-&#39; ]; then
-    if [ &#34;${1}&#34; != &#39;-s&#39; ]; then
-        help_and_exit &#34;error: unknown option ${1}&#34;  
-    fi
-    base_folder=&#34;${2}&#34;
-else
-    base_folder=&#34;${1}&#34;
-    params=&#34;-window root&#34;
-fi  
-
-file_path=${base_folder}$( date &#39;+%Y-%m-%d_%H-%M-%S&#39; )_screenshot.png
-import ${params} ${file_path}
-xclip -selection clipboard -target image/png -i &lt; ${file_path}
+overriding: redefining an inherited method
+x.foo()
+polymorphism: depends upon type of x
+class member: member of class itself but not it&#39;s instances (static fields and methods in Java)
+constructor: sets up an instance at it&#39;s creation
+interface: shared set of methods in common
+abstract class: a class which cannot be instantiated (just meant to serve as an ancestor)
+overloading: having multiple methods with same name and different arguments
 </code></pre>
     <a href="/"> >> Home</a>
   </main>

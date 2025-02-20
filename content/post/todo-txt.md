@@ -1,6 +1,5 @@
 ---
 title: simply lovely todo.txt
-author: Doğukan Meral
 date: '2024-11-25'
 ---
 

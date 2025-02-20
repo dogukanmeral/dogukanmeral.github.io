@@ -6,8 +6,15 @@
     <description>Recent content in Doğukan Meral on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>oop reminder</title>
+      <link>http://localhost:1313/post/2025/02/20/oop-reminder/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2025/02/20/oop-reminder/</guid>
+      <description>data before action in OOP decompose to data types (in procedural decompose to functions) class(data type definition) field(data member) method(function member) object/instance: piece of data encapsulation: methods act as &amp;#34;interface&amp;#34; to object fields public(visible anywhere) VS private(visible only to methods of own type) inheritance(a type including all members from another type) ! circular inheritance is illegal(doesn&amp;#39;t make any sense) is-a VS has-a relationship (think before using inheritance) multiple inheritance (java and c# allow ONLY single inheritance) overriding: redefining an inherited method x.</description>
+    </item>
     <item>
       <title>scregcp</title>
       <link>http://localhost:1313/post/2025/02/15/scregcp/</link>
