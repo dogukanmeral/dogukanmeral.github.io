@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>THKÜ RSS</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="http://localhost:1313/css/theme-override.css">
+    
+  </head>
+</html>
+
+<div class="article-meta">
+<h1><span class="title">THKÜ RSS</span></h1>
+
+<h2 class="date">2024/11/24</h2>
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<div class="content-wrapper">
+  <main>
+    <p>Checking updates on announcement pages can get really annoying, especially if there are multiple of them and you have to check them periodically in order not to miss time-critical ones.</p>
+<p>To get updates from the university I(how selfish) study at (THKÜ), I started writing THKÜ RSS generator. Basically it fetches HTML, parses it, creates XML feeds for each annoucement site (as I mentioned there are multiple announcement sites).</p>
+<h1 id="how-to-get-it">how to get it?</h1>
+<p>For now, cloning the <a href="https://github.com/dogukanmeral/thku_rss">github repository</a> and building it using <a href="https://pypi.org/project/hatchling/">hatchling</a> is the only option. Package will also be available in PyPI in near future (when I set up 2FA for PyPI in my non-lazy time).</p>
+<h1 id="how-to-use-it">how to use it?</h1>
+<p>It&rsquo;s a terminal-based program so use your terminal emulator.</p>
+<dl>
+<dt>thku_rss -c</dt>
+<dd>Opens (c)onfiguration file in default text-editor. XML(feed) paths and log folder path must be changed for your own system. To add more feeds, create new dictionaries inside &ldquo;feeds&rdquo;.</dd>
+<dt>thku_rss -f</dt>
+<dd>(F)etches announcements from links in config.xml and creates XML feeds at specified paths.</dd>
+<dt>Note: To schedule(automate) the program, use <a href="https://en.wikipedia.org/wiki/Cron">cron</a> etc.</dt>
+<dt>To read content of feeds:</dt>
+<dd>I personally use <a href="https://newsboat.org/index.html">newsboat</a> RSS reader, but you can use any RSS reader you want.</dd>
+</dl>
+<h1 id="todo">todo</h1>
+<ul>
+<li>Setup a server to generate XML periodically(not that selfish)</li>
+<li>Set paths by default to home directory of user.</li>
+<li>Simplify configuration</li>
+<li>Create PyPI package</li>
+</ul>
+<h1 id="if-you-want-to-contribute">if you want to contribute</h1>
+<p>Assuming you&rsquo;re a student/academician(!) in THKÜ(why would anybody else want to contribute) , you can help by:</p>
+<ul>
+<li>Suggesting IT and high-end academic people implementing this program into university&rsquo;s servers.</li>
+<li>Contacting me about your dislikes and suggestions at <a href="mailto:dogukan.meral@yahoo.com">dogukan.meral@yahoo.com</a></li>
+<li>pull requests (considering todos)</li>
+</ul>
+
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+      
+      <script>
+      (function() {
+        function center_el(tagName) {
+          var tags = document.getElementsByTagName(tagName), i, tag;
+          for (i = 0; i < tags.length; i++) {
+            tag = tags[i];
+            var parent = tag.parentElement;
+            
+            if (parent.childNodes.length === 1) {
+              
+              if (parent.nodeName === 'A') {
+                parent = parent.parentElement;
+                if (parent.childNodes.length != 1) continue;
+              }
+              if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+            }
+          }
+        }
+        var tagNames = ['img', 'embed', 'object'];
+        for (var i = 0; i < tagNames.length; i++) {
+          center_el(tagNames[i]);
+        }
+      })();
+      </script>
+
+      
+      <hr/>
+      <a href="https://github.com/dogukanmeral">Github</a> | <a href="https://youtube.com/@dogukanmer">YouTube</a> | <a href="https://open.spotify.com/user/31rzupckify5asckqneum3hfuvcm">Spotify</a>
+<a href="/index.xml"><img src="/images/rss.svg" width="30"></a>
+      
+    </footer>
+  </body>
+</html>
+

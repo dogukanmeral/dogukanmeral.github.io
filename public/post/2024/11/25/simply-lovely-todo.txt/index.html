@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple, minimal blog for those who love text.">
+    <title>simply lovely todo.txt</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="http://localhost:1313/css/theme-override.css">
+    
+  </head>
+</html>
+
+<div class="article-meta">
+<h1><span class="title">simply lovely todo.txt</span></h1>
+
+<h2 class="date">2024/11/25</h2>
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<div class="content-wrapper">
+  <main>
+    <p><a href="http://todotxt.org/">todo.txt</a> is a super-simple way for personal todos. Does only one job and does it well. It being only a bash(.sh) file makes installing it easy and hackable (not in a malicious way).</p>
+<p>There are lots of &ldquo;community apps&rdquo; based on todo.txt both graphical and terminal-based. And there is also an Android app. But in this post I&rsquo;m going to explore raw-dog todo.txt CLI.</p>
+<h1 id="lets-install">let&rsquo;s install</h1>
+<ol>
+<li>Download latest package(.zip or .tar.gz) from <a href="https://github.com/todotxt/todo.txt-cli/releases">releases page</a>.</li>
+<li>Extract those files.</li>
+<li>Create an alias for .sh file in .bashrc by adding lines:</li>
+</ol>
+<p><code>alias todo=&quot;&lt;path_to_todo.sh&gt;&quot;</code> (for that change to take effect, restart your terminal-emulator or run <code>source ~/.bashrc</code>)</p>
+<h1 id="todoing">todoing</h1>
+<p>I will keep it as simple as possible. For <a href="https://github.com/todotxt/todo.txt-cli/wiki/User-Documentation">all capabilities</a> of todo.txt. Or just simply run: <code>todo help</code></p>
+<p>Adding tasks:
+<img src="/images/todo.txt/add_task.png"></p>
+<p>Adding tasks with +project and @context tags:
+<img src="/images/todo.txt/add_task_pri_proj.png"></p>
+<p>Listing all tasks:
+<img src="/images/todo.txt/list_all_tasks.png"></p>
+<p>Listing using regular expressions:
+<img src="/images/todo.txt/list_regex.png"></p>
+<p>Listing by +project and @context:
+<img src="/images/todo.txt/list_pri_proj.png"></p>
+<p>Marking task as done:
+<img src="/images/todo.txt/done.png"></p>
+<p>Replacing task text:
+<img src="/images/todo.txt/replace.png"></p>
+<h1 id="for-todo-maxers">for todo maxers</h1>
+<p>Developing bash scripts on top of todo.sh or auto-self-mail sender thingy for .txt file are on my todo list.</p>
+
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+      
+      <script>
+      (function() {
+        function center_el(tagName) {
+          var tags = document.getElementsByTagName(tagName), i, tag;
+          for (i = 0; i < tags.length; i++) {
+            tag = tags[i];
+            var parent = tag.parentElement;
+            
+            if (parent.childNodes.length === 1) {
+              
+              if (parent.nodeName === 'A') {
+                parent = parent.parentElement;
+                if (parent.childNodes.length != 1) continue;
+              }
+              if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+            }
+          }
+        }
+        var tagNames = ['img', 'embed', 'object'];
+        for (var i = 0; i < tagNames.length; i++) {
+          center_el(tagNames[i]);
+        }
+      })();
+      </script>
+
+      
+      <hr/>
+      <a href="https://github.com/dogukanmeral">Github</a> | <a href="https://youtube.com/@dogukanmer">YouTube</a> | <a href="https://open.spotify.com/user/31rzupckify5asckqneum3hfuvcm">Spotify</a>
+<a href="/index.xml"><img src="/images/rss.svg" width="30"></a>
+      
+    </footer>
+  </body>
+</html>
+
