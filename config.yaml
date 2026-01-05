@@ -1,0 +1,26 @@
+baseURL: /
+languageCode: en-us
+build:
+  writeStats: true
+title: Doğukan Meral
+# Uncomment below to use aafu as hugo theme. See instructions in README.md
+# theme: aafu
+
+params:
+  author: Doğukan Meral
+  description: Personal website
+  copyright: powered by [hugo](https://gohugo.io/)
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  accordion:
+    - item: about_me
+      expand: true # only the first `expand: true` will take effect
+    - item: experiences
+    - item: education
+#    - item: publications
+    - item: projects
+#     - item: skills
+#       panel_id: skill-panel
+    - item: hobbies

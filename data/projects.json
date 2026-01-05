@@ -1,0 +1,26 @@
+{
+  "title": "Projects",
+  "icon": "bi bi-kanban",
+  "list": [
+    {
+      "title": "thku-rss",
+      "url": "https://github.com/dogukanmeral/thku_rss",
+      "description": "RSS fetcher for announcements on school websites"
+    },
+    {
+      "title": "pickitup",
+      "url": "https://github.com/dogukanmeral/pickitup",
+      "description": "CLI tool to organise folders"
+    },
+    {
+      "title": "Vim Github Search",
+      "url": "https://github.com/dogukanmeral/vim-gh-search",
+      "description": "Vim plugin for searching code on github"
+    },
+    {
+      "title": "Venividivici",
+      "url": "https://github.com/dogukanmeral/venividivici",
+      "description": "Self-hosted travelling forum built on Sanic framework, which has no front-end (I will develop one ASAP)"
+    }
+  ]
+}

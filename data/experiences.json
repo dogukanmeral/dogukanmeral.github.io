@@ -1,0 +1,11 @@
+{
+  "title": "Experiences",
+  "icon": "bi bi-briefcase",
+  "list": [{
+      "position": "Test Automation Intern",
+      "dates": "July 2024 - September 2024",
+      "url": "https://airties.com/",
+      "company": "Airties"
+    }
+  ]
+}

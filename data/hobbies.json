@@ -1,0 +1,15 @@
+{
+  "title": "Hobbies",
+  "icon": "bi bi-controller",
+  "list": [
+    {
+      "hobby": "Developing"
+    },
+    {
+      "hobby": "Electric guitar & Bass"
+    },
+    {
+      "hobby": "Doing nothing"
+    }
+  ]
+}

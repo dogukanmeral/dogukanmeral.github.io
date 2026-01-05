@@ -1,0 +1,5 @@
+{
+  "title": "About Me",
+  "icon": "bi bi-person",
+  "description": "Hi! I’m Doğukan Meral and I’m studying software engineering at the University of Turkish Aeronautical Association. I am currently developing BPF programs and custom sched_ext schedulers for the Linux kernel. In my homelab server, I’m running Proxmox hypervisor which is connected to an OpenWRT router. I am interested in OS kernel development, test-network automation, DevOps areas and I want to pursue a career in these areas."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Education",
+  "icon": "bi bi-mortarboard",
+  "list": [
+    {
+      "degree": "Bachelor - Software Engineering",
+      "college": "University of Turkish Aeronautical Association",
+      "dates": "2022 - 2026"
+    },
+    {
+      "degree": "Erasmus+ Program - Computer Science",
+      "college": "Bialystok University of Technology (Politechnika Bialostocka)",
+      "dates": "2025 Spring"
+    }
+  ]
+}
