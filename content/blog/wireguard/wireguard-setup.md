@@ -36,6 +36,8 @@ I don't want to [yap](https://en.wikipedia.org/wiki/Glossary_of_2020s_slang) too
 - Encrypted connection
 - Minimized attack surface
 
+![VPN](https://www.allbestvpn.com/wp-content/uploads/2019/02/How-VPN-Work.jpg)
+
 [^1]: https://en.wikipedia.org/wiki/WireGuard
 
 ---
@@ -220,3 +222,5 @@ On server:
 On client:
 - `systemctl status wg-quick@wg-client0.service`
 - `ping {SERVER_VPN_IP}`
+
+![wireshark capture](https://emanuelduss.ch/posts/wireguard-vpn-road-warrior-setup/wireshark.png)
