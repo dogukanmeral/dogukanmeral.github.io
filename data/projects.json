@@ -3,6 +3,11 @@
   "icon": "bi bi-kanban",
   "list": [
     {
+      "title": "scx-adapt",
+      "url": "https://github.com/dogukanmeral/scx-adapt",
+      "description": "Profiling tool for sched_ext schedulers, which aims to manage variable workload types effectively."
+    },
+    {
       "title": "thku-rss",
       "url": "https://github.com/dogukanmeral/thku_rss",
       "description": "RSS fetcher for announcements on school websites"
